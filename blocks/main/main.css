@@ -1,18 +1,16 @@
 .main {
-  margin-top: 56px;
+  display: grid;
+  grid-row-gap: 92px;
 }
-@media screen and (max-width: 1023px) {
+
+@media screen and (max-width: 984px) {
   .main {
-    margin-top: 48px;
+    grid-row-gap: 88px;
   }
 }
-@media screen and (min-width: 1024px) and (max-width: 1279px) {
+
+@media screen and (max-width: 568px) {
   .main {
-    margin-top: 46px;
-  }
-}
-@media screen and (max-width: 767px) {
-  .main {
-    margin-top: 46px;
+    grid-row-gap: 64px;
   }
 }

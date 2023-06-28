@@ -1,8 +1,9 @@
 .header__links {
   margin-top: 10px;
   font-size: 0;
+  display: flex;
 }
-.header__links a:first-child {
+.header__links :first-child {
   padding-right: 18px;
 }
 @media screen and (max-width: 767px) {
