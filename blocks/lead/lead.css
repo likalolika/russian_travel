@@ -8,6 +8,7 @@
 @media screen and (max-width: 1140px) {
   .lead {
     width: calc(100% - 2 * 48px);
+    margin-top: 46px;
   }
 }
 
