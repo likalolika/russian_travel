@@ -3,10 +3,8 @@
   font-size: 0;
   display: flex;
 }
-.header__links :first-child {
-  padding-right: 18px;
-}
-@media screen and (max-width: 767px) {
+
+@media screen and (max-width: 568px) {
   .header__links {
     margin-top: 6px;
   }

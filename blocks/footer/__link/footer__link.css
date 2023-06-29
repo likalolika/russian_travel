@@ -3,7 +3,6 @@
   color: #fff;
   text-decoration: none;
   font-size: 16px;
-
   line-height: 1;
 }
 .footer__link:hover {
@@ -12,7 +11,6 @@
 @media screen and (max-width: 767px) {
   .footer__link {
     font-size: 24px;
-    line-height: 1;
   }
 }
 @media screen and (min-width: 1024px) and (max-width: 1279px) {

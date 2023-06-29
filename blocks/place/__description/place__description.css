@@ -2,7 +2,9 @@
   list-style-type: none;
   padding: 0;
   margin: 0;
+  
+  
 }
-.place__description p:last-of-type {
+/*.place__description p:last-of-type {
   padding-bottom: 0;
 }

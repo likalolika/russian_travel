@@ -2,18 +2,27 @@
   margin: 0;
   padding: 0;
   font-size: 18px;
-  padding-bottom: 26px;
-  line-height: 1.6;
+  line-height: 163%;
+  margin-block-start: 0;
+  margin-block-end: 0;
 }
-
+.place__paragraph:first-child {
+  padding-bottom: 26px;
+}
 @media screen and (max-width: 1023px) {
   .place__paragraph {
     font-size: 16px;
     line-height: 1.63;
   }
+  .place__paragraph:first-child {
+    padding-bottom: 27px;
+  }
 }
 @media screen and (max-width: 767px) {
   .place__paragraph {
     margin: 0 16px;
+  }
+  .place__paragraph:first-child {
+    padding-bottom: 25px;
   }
 }
