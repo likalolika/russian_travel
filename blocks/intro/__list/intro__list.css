@@ -7,6 +7,7 @@
   line-height: 1.5;
   margin-top: 32px;
 }
+
 @media screen and (max-width: 568px) {
   .intro__list {
     margin-top: 34px;

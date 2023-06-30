@@ -13,6 +13,7 @@
   color: #fff;
   text-decoration: none;
 }
+
 .cover__background::before {
   content: "";
   background-color: #2a2c2f;
@@ -25,19 +26,23 @@
   z-index: -1;
   transition: opacity 0.5s ease-in;
 }
+
 .cover__background:hover::before {
   opacity: 0.8;
 }
+
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
   .cover__background {
     min-height: 640px;
   }
 }
+
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   .cover__background {
     min-height: 480px;
   }
 }
+
 @media screen and (max-width: 767px) {
   .cover__background {
     min-height: 200px;
